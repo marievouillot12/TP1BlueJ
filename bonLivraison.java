@@ -11,7 +11,6 @@ public class bonLivraison
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
     private double prix;
-    private double poids;
     public Colis c;
 
     /**
@@ -21,7 +20,7 @@ public class bonLivraison
     {
         // initialisation des variables d'instance
         prix = 0;
-        poids=0;
+        
         
     }
 
@@ -45,7 +44,7 @@ public class bonLivraison
      */
     public double getPoids()
     {
-        poids=this.c.getPoids();
+        double poids=this.c.getPoids();
         return poids;
     }
     
